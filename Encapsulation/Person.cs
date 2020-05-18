@@ -5,7 +5,7 @@ using System.Text;
 namespace SortPerson
 {
     /// <summary>
-    /// 
+    /// some information about person
     /// </summary>
    public class Person
     {
@@ -26,7 +26,9 @@ namespace SortPerson
         public string LastName { get { return lastName; } }
         private int  age;
         public int Age { get { return age; } }
-   public override string ToString()=> $"{ this.FirstName} { this.LastName } is { this.Age} years old";
+
+       
+        public override string ToString()=> $"{ this.FirstName} { this.LastName } is { this.Age} years old";
         
     }
    
